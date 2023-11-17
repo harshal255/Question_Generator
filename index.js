@@ -1,15 +1,15 @@
 const express = require('express')
 const app = express()
 const port = 5000;
-const question = require('./question')
+const questions = require('./questions')
 
 
 app.get('/', (req, res) => {
-    res.json(question);
+    res.json(questions);
 })
 
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port} : http://localhost:${port}`)
+    console.log(`Question-Generator listening on port ${port} : http://localhost:${port}`)
 
 })
