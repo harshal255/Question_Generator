@@ -1,0 +1,20 @@
+{
+  "name": "question_generator",
+  "version": "1.0.0",
+  "description": "The application must store a number of questions in a Question Store. A question can have the following attributes {question, subject, topic, difficulty, marks}",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Harshal Kahar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
